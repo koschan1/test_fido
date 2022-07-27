@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <permission permission_group_id="forum" permission_id="sv_EnableMentions" permission_type="flag" interface_group_id="forumPermissions" display_order="11233"/>
+  <permission permission_group_id="general" permission_id="sv_MentionUserGroup" permission_type="flag" interface_group_id="generalPermissions" display_order="11232"/>
+  <permission permission_group_id="general" permission_id="sv_ReceiveMentionEmails" permission_type="flag" interface_group_id="generalPermissions" display_order="11230"/>
+  <permission permission_group_id="general" permission_id="sv_ReceiveQuoteEmails" permission_type="flag" interface_group_id="generalPermissions" display_order="11231"/>
+  <permission permission_group_id="general" permission_id="sv_ViewPrivateGroups" permission_type="flag" interface_group_id="generalModeratorPermissions" display_order="9"/>
+  <permission permission_group_id="general" permission_id="sv_ViewPublicGroups" permission_type="flag" interface_group_id="generalPermissions" display_order="11233"/>
+</permissions>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="mention_email_html_footer" version_id="2030400" version_string="2.3.4"><![CDATA[<p class="minorText">Please do not reply to this message. You must visit the forum to reply.</p>
+
+<p class="minorText">This message was sent to you because you opted to received emails when mentioned at {board}.</p>
+
+<p class="minorText">If you no longer wish to receive these emails, you may <a href="{disable_this_link}">disable emails on being mentioned</a> or <a href="{disable_all_link}">disable all emails</a>.</p>]]></phrase>
+  <phrase title="option.svBlockMentionRenderingOnNoPermissions" version_id="2060200" version_string="2.6.2"><![CDATA[Block mention rendering if the user has no permissions to use mentions]]></phrase>
+  <phrase title="option.svUMIPermDeniedOnViewGroup" version_id="2020000" version_string="2.2.0"><![CDATA[Return permission denied instead of not found if lacking permissions to view a user group]]></phrase>
+  <phrase title="option.sv_default_group_avatar_l" version_id="2000070" version_string="2.0.0"><![CDATA[Default usergroup avatar (large)]]></phrase>
+  <phrase title="option.sv_default_group_avatar_s" version_id="2000070" version_string="2.0.0"><![CDATA[Default usergroup avatar (small)]]></phrase>
+  <phrase title="option.sv_limit_quote_emails" version_id="2000070" version_string="2.0.0"><![CDATA[Send quote emails only on unreplied threads]]></phrase>
+  <phrase title="option.sv_mention_snippet_length" version_id="2000200" version_string="2.0.2"><![CDATA[Mention/Quote Snippet length]]></phrase>
+  <phrase title="option.sv_send_email_on_quote" version_id="2000070" version_string="2.0.0"><![CDATA[Allow quoted alert emails]]></phrase>
+  <phrase title="option.sv_send_email_on_tagging" version_id="2000070" version_string="2.0.0"><![CDATA[Allow mention alert emails]]></phrase>
+  <phrase title="option_explain.svBlockMentionRenderingOnNoPermissions" version_id="2060200" version_string="2.6.2"><![CDATA[]]></phrase>
+  <phrase title="option_explain.svUMIPermDeniedOnViewGroup" version_id="2020000" version_string="2.2.0"><![CDATA[If disabled, the @usergroup tag is also not rendered]]></phrase>
+  <phrase title="option_explain.sv_default_group_avatar_l" version_id="2000070" version_string="2.0.0"><![CDATA[Path to the default usergroup avatar. Used when a usergroup-specific avatar isn't set.]]></phrase>
+  <phrase title="option_explain.sv_default_group_avatar_s" version_id="2000070" version_string="2.0.0"><![CDATA[Path to the default usergroup avatar. Used when a usergroup-specific avatar isn't set.]]></phrase>
+  <phrase title="option_explain.sv_limit_quote_emails" version_id="2000070" version_string="2.0.0"><![CDATA[Only send quote alert emails if the user has not posted in that thread before.]]></phrase>
+  <phrase title="option_explain.sv_mention_snippet_length" version_id="2000200" version_string="2.0.2"><![CDATA[On Mention/Quote emails, include a snippet this long<br/>
+<br/>
+0 to disable<br/>
+-1 for all text]]></phrase>
+  <phrase title="option_explain.sv_send_email_on_quote" version_id="2060100" version_string="2.6.1"><![CDATA[Allows users to receive alert emails, when quoted.<br/>
+Requires the "[UMI] Receive quote alert emails" permission<br/>
+Users still require opt-in under /account/preferences]]></phrase>
+  <phrase title="option_explain.sv_send_email_on_tagging" version_id="2060100" version_string="2.6.1"><![CDATA[Allows users to opt in to receiving emails when mentioned and/or quoted.<br/>
+Requires the "[UMI] Receive mention alert emails" permission<br/>
+Users still require opt-in under /account/preferences]]></phrase>
+  <phrase title="option_group.sv_usermentionsimprovements" version_id="2000070" version_string="2.0.0"><![CDATA[User mentions improvements]]></phrase>
+  <phrase title="option_group_description.sv_usermentionsimprovements" version_id="2000070" version_string="2.0.0"><![CDATA[User group mentions, emails on mentions]]></phrase>
+  <phrase title="permission.forum_sv_EnableMentions" version_id="1040200" version_string="1.4.2"><![CDATA[[UMI] Enable user mentions]]></phrase>
+  <phrase title="permission.general_sv_MentionUserGroup" version_id="2000070" version_string="2.0.0"><![CDATA[[UMI] Mention user groups]]></phrase>
+  <phrase title="permission.general_sv_ReceiveMentionEmails" version_id="2000070" version_string="2.0.0"><![CDATA[[UMI] Receive mention alert emails]]></phrase>
+  <phrase title="permission.general_sv_ReceiveQuoteEmails" version_id="2000070" version_string="2.0.0"><![CDATA[[UMI] Receive quote alert emails]]></phrase>
+  <phrase title="permission.general_sv_ViewPrivateGroups" version_id="2000070" version_string="2.0.0"><![CDATA[[UMI] View private user groups]]></phrase>
+  <phrase title="permission.general_sv_ViewPublicGroups" version_id="2010000" version_string="2.1.0"><![CDATA[[UMI] View mentionable user group members]]></phrase>
+  <phrase title="quote_email_html_footer" version_id="2030400" version_string="2.3.4"><![CDATA[<p class="minorText">Please do not reply to this message. You must visit the forum to reply.</p>
+
+<p class="minorText">This message was sent to you because you opted to received emails when quoted at {board}.</p>
+
+<p class="minorText">If you no longer wish to receive these emails, you may <a href="{disable_this_link}">disable emails on being quoted</a> or <a href="{disable_all_link}">disable all emails</a>.</p>]]></phrase>
+  <phrase title="sv_mentioned_as_y_group" version_id="2040900" version_string="2.4.9"><![CDATA[As you are a member of the {title} usergroup.]]></phrase>
+  <phrase title="sv_mentioned_email_html" version_id="2010000" version_string="2.1.0"><![CDATA[<p>{receiver},<br/>
+<br/>
+{mentioner} mentioned you at:</p>]]></phrase>
+  <phrase title="sv_mentioned_email_subject" version_id="2000200" version_string="2.0.2"><![CDATA[{sender} mentioned you]]></phrase>
+  <phrase title="sv_quoted_email_html" version_id="2070100" version_string="2.7.1"><![CDATA[<p>{receiver},<br/>
+<br/>
+{quoter} quoted you at:</p>]]></phrase>
+  <phrase title="sv_quoted_email_subject" version_id="2000200" version_string="2.0.2"><![CDATA[{sender} quoted you]]></phrase>
+  <phrase title="sv_rebuild_permissions" version_id="2030700" version_string="2.3.7"><![CDATA[Rebuild permissions]]></phrase>
+  <phrase title="sv_receive_email_when_mentioned" version_id="2060800" version_string="2.6.8"><![CDATA[Receive email when mentioned]]></phrase>
+  <phrase title="sv_receive_email_when_quoted" version_id="2060800" version_string="2.6.8"><![CDATA[Receive email when quoted]]></phrase>
+  <phrase title="sv_stop_notification_emails_for_all_mentions" version_id="2000200" version_string="2.0.2"><![CDATA[Stop notification emails for when you are mentioned]]></phrase>
+  <phrase title="sv_stop_notification_emails_for_all_quotes" version_id="2000200" version_string="2.0.2"><![CDATA[Stop notification emails for when you are quoted]]></phrase>
+  <phrase title="sv_user_group_avatar_image_large" version_id="2000200" version_string="2.0.2"><![CDATA[Avatar image (large)]]></phrase>
+  <phrase title="sv_user_group_avatar_image_large_explain" version_id="2000200" version_string="2.0.2"><![CDATA[Image to display on the user group membership list.]]></phrase>
+  <phrase title="sv_user_group_avatar_image_small" version_id="2000200" version_string="2.0.2"><![CDATA[Avatar image (small)]]></phrase>
+  <phrase title="sv_user_group_avatar_image_small_explain" version_id="2000200" version_string="2.0.2"><![CDATA[Image to display when the user group is being mentioned.]]></phrase>
+  <phrase title="sv_user_group_is_mentionable" version_id="2000200" version_string="2.0.2"><![CDATA[Is mentionable]]></phrase>
+  <phrase title="sv_user_group_is_mentionable_explain" version_id="2000200" version_string="2.0.2"><![CDATA[Allows this user group to be mentioned. <b>Note: Not recommended for large groups!</b>]]></phrase>
+  <phrase title="sv_user_group_is_private" version_id="2000200" version_string="2.0.2"><![CDATA[Is private]]></phrase>
+  <phrase title="sv_user_group_is_private_explain" version_id="2000200" version_string="2.0.2"><![CDATA[Only members of the user group, or administrators with the relevant permission, can mention and view this user group.]]></phrase>
+  <phrase title="sv_user_profile" version_id="2000200" version_string="2.0.2"><![CDATA[{name}'s Profile]]></phrase>
+</phrases>

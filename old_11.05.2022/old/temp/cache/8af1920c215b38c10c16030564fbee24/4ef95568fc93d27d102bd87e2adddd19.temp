@@ -1,0 +1,49 @@
+<?php return array (
+  'time' => 1637771594,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        213 => 
+        array (
+          'ads_filters_id' => '213',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '203',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        214 => 
+        array (
+          'ads_filters_id' => '214',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '204',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      213 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      214 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

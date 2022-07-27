@@ -1,0 +1,66 @@
+<?php return array (
+  'time' => 1651135479,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        155 => 
+        array (
+          'ads_filters_id' => '155',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '136',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        169 => 
+        array (
+          'ads_filters_id' => '169',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '159',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        170 => 
+        array (
+          'ads_filters_id' => '170',
+          'ads_filters_name' => 'Устройство',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '160',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ustroystvo',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      155 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      169 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      170 => 
+      array (
+        'ads_filters_name' => 'Устройство',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

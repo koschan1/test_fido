@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="option_template_registrationDefaults_mentions" version_id="2060800" version_string="2.6.8"><![CDATA[<xf:checkbox>
+    <xf:option name="{$inputName}[sv_email_on_mention]" checked="{{$option.option_value.sv_email_on_mention}}">{{ phrase('sv_receive_email_when_mentioned') }}</xf:option>
+    <xf:option name="{$inputName}[sv_email_on_quote]" checked="{{$option.option_value.sv_email_on_quote}}">{{ phrase('sv_receive_email_when_quoted') }}</xf:option>
+</xf:checkbox>
+]]></template>
+  <template type="admin" title="user_edits_mentions" version_id="2060800" version_string="2.6.8"><![CDATA[<xf:checkboxrow>
+    <xf:option name="option[sv_email_on_mention]" checked="{{$user.Option.sv_email_on_mention}}">{{ phrase('sv_receive_email_when_mentioned') }}</xf:option>
+    <xf:option name="option[sv_email_on_quote]" checked="{{$user.Option.sv_email_on_quote}}">{{ phrase('sv_receive_email_when_quoted') }}</xf:option>
+</xf:checkboxrow>
+]]></template>
+  <template type="admin" title="user_group_edit_mentions" version_id="2000200" version_string="2.0.2"><![CDATA[<xf:checkboxrow label="" explain="{{ phrase('sv_user_group_is_mentionable_explain') }}">
+    <xf:option name="sv_mentionable" label="{{ phrase('sv_user_group_is_mentionable') }}" checked="{$userGroup.sv_mentionable}" />
+</xf:checkboxrow>
+
+<xf:checkboxrow label="" explain="{{ phrase('sv_user_group_is_private_explain') }}">
+    <xf:option name="sv_private" label="{{ phrase('sv_user_group_is_private') }}" checked="{$userGroup.sv_private}" />
+</xf:checkboxrow>
+
+<xf:textboxrow label="{{ phrase('sv_user_group_avatar_image_small') }}" name="sv_avatar_s" value="{$userGroup.sv_avatar_s}" explain="{{ phrase('sv_user_group_avatar_image_small_explain') }}" />
+<xf:textboxrow label="{{ phrase('sv_user_group_avatar_image_large') }}" name="sv_avatar_l" value="{$userGroup.sv_avatar_l}" explain="{{ phrase('sv_user_group_avatar_image_large_explain') }}" />]]></template>
+  <template type="email" title="sv_mention_macros" version_id="2000200" version_string="2.0.2"><![CDATA[<xf:macro name="quote_subject"
+          arg-sender="!"
+          >
+    {{ phrase('sv_quoted_email_subject', {
+    'sender': $sender
+    }) }}
+</xf:macro>
+
+<xf:macro name="mention_subject"
+          arg-sender="!"
+          >
+    {{ phrase('sv_mentioned_email_subject', {
+    'sender': $sender
+    }) }}
+</xf:macro>
+
+<xf:macro name="quote"
+          arg-content="!"
+          arg-message="!"
+          arg-receiver="!"
+          arg-user="!"
+          arg-username="!"
+          arg-contentType="!"
+          arg-contentLink="!"
+          arg-contentTitle="!"
+          >
+    {{ phrase('sv_quoted_email_html', {
+    'receiver': $receiver.username,
+    'quoter': username_link_email($user, $username),
+    'board': '<a href="' . link('canonical:index') . '">' . $xf.options.boardTitle . '</a>'
+    }) }}
+
+    <h2><a href="{$contentLink}">{$contentTitle}</a></h2>
+
+    <xf:if is="$xf.options.sv_mention_snippet_length && $message">
+        <xf:if is="$xf.options.sv_mention_snippet_length > 0">
+            <xf:set var="$message" value="{{ snippet($message, $xf.options.sv_mention_snippet_length)|raw }}" />
+        </xf:if>
+        <div class="message">{{ bb_code_type('emailHtml', $message, $contentType, $content) }}</div>
+    </xf:if>
+</xf:macro>
+
+<xf:macro name="mention"
+          arg-content="!"
+          arg-message="!"
+          arg-receiver="!"
+          arg-user="!"
+          arg-username="!"
+          arg-contentType="!"
+          arg-contentLink="!"
+          arg-contentTitle="!"
+          >
+    {{ phrase('sv_mentioned_email_html', {
+    'receiver': $receiver.username,
+    'mentioner': username_link_email($user, $username),
+    'board': '<a href="' . link('canonical:index') . '">' . $xf.options.boardTitle . '</a>'
+    }) }}
+
+    <h2><a href="{$contentLink}">{$contentTitle}</a></h2>
+
+    <xf:if is="$xf.options.sv_mention_snippet_length && $message">
+        <xf:if is="$xf.options.sv_mention_snippet_length > 0">
+            <xf:set var="$message" value="{{ snippet($message, $xf.options.sv_mention_snippet_length)|raw }}" />
+        </xf:if>
+        <div class="message">{{ bb_code_type('emailHtml', $message, $contentType, $content) }}</div>
+    </xf:if>
+</xf:macro>
+
+<xf:macro name="mention_footer">
+    {{ phrase('mention_email_html_footer', {
+        'board': $xf.options.boardTitle,
+        'disable_this_link': link('canonical:email-stop/content', $xf.toUser, {'t': 'svMention', 'id': $xf.toUser.user_id}),
+        'disable_all_link': link('canonical:email-stop/all', $xf.toUser)
+    }) }}
+</xf:macro>
+
+<xf:macro name="quote_footer">
+    {{ phrase('quote_email_html_footer', {
+        'board': $xf.options.boardTitle,
+        'disable_this_link': link('canonical:email-stop/content', $xf.toUser, {'t': 'svQuote', 'id': $xf.toUser.user_id}),
+        'disable_all_link': link('canonical:email-stop/all', $xf.toUser)
+    }) }}
+</xf:macro>]]></template>
+  <template type="email" title="sv_user_mention_post" version_id="2000200" version_string="2.0.2"><![CDATA[<mail:subject>
+<xf:macro template="sv_mention_macros"
+          name="mention_subject"
+          arg-sender="{$post.username}"
+          />
+</mail:subject>
+
+<xf:macro template="sv_mention_macros"
+          name="mention"
+          arg-content="{$post}"
+          arg-message="{$post.message}"
+          arg-receiver="{$receiver}"
+          arg-user="{$post.User}}"
+          arg-username="{$post.username}"
+          arg-contentType="post"
+          arg-contentLink="{{ link('canonical:posts', $post) }}"
+          arg-contentTitle="{{ prefix('thread', $thread, 'escaped') }}{$thread.title}"
+          />
+
+<xf:macro template="sv_mention_macros"
+          name="mention_footer"
+          />]]></template>
+  <template type="email" title="sv_user_mention_profile_post" version_id="2010000" version_string="2.1.0"><![CDATA[<mail:subject>
+<xf:macro template="sv_mention_macros" 
+		  name="mention_subject" 
+		  arg-sender="{$profilePost.username}"
+		  />
+</mail:subject>
+
+<xf:macro template="sv_mention_macros" 
+		  name="mention"
+          arg-content="{$profilePost}"
+          arg-message="{$profilePost.message}"
+		  arg-receiver="{$receiver}"
+          arg-user="{$profilePost.User}"
+          arg-username="{$profilePost.username}"
+          arg-contentType="profile_post"
+          arg-contentLink="{{ link('canonical:profile-posts', $profilePost) }}"
+          arg-contentTitle="{{ phrase('sv_user_profile', {
+	'name': $profilePost.ProfileUser.username
+}) }}"
+		  />
+
+<xf:macro template="sv_mention_macros" 
+		  name="mention_footer"
+		  />]]></template>
+  <template type="email" title="sv_user_mention_profile_post_comment" version_id="2010000" version_string="2.1.0"><![CDATA[<mail:subject>
+<xf:macro template="sv_mention_macros" 
+		  name="mention_subject" 
+		  arg-sender="{$profilePostComment.username}"
+		  />
+</mail:subject>
+
+<xf:macro template="sv_mention_macros" 
+		  name="mention"
+          arg-content="{$profilePostComment}"
+          arg-message="{$profilePostComment.message}"
+		  arg-receiver="{$receiver}"
+          arg-user="{$profilePostComment.User}"
+          arg-username="{$profilePostComment.username}"
+          arg-contentType="profile_post_comment"
+          arg-contentLink="{{ link('canonical:profile-posts/comments', $profilePostComment) }}"
+          arg-contentTitle="{{ phrase('sv_user_profile', {
+	'name': $profilePostComment.ProfilePost.ProfileUser.username
+}) }}"
+		  />
+
+<xf:macro template="sv_mention_macros" 
+		  name="mention_footer"
+		  />]]></template>
+  <template type="email" title="sv_user_mention_report_comment" version_id="2000200" version_string="2.0.2"><![CDATA[<mail:subject>
+<xf:macro template="sv_mention_macros"
+          name="mention_subject"
+          arg-sender="{$reportComment.username}"
+          />
+</mail:subject>
+
+<xf:macro template="sv_mention_macros"
+          name="mention"
+          arg-content="{$reportComment}"
+          arg-message="{$reportComment.message}"
+          arg-receiver="{$receiver}"
+          arg-user="{$reportComment.User}"
+          arg-username="{$reportComment.username}"
+          arg-contentType="report_comment"
+          arg-contentLink="{{ link('canonical:reports/comments', $reportComment.Report) }} '#report-comment-' . {{$reportComment.report_comment_id}}"
+          arg-contentTitle="{$reportComment.Report.title}"
+          />
+
+<xf:macro template="sv_mention_macros"
+          name="mention_footer"
+          />]]></template>
+  <template type="email" title="sv_user_quote_post" version_id="2000200" version_string="2.0.2"><![CDATA[<mail:subject>
+<xf:macro template="sv_mention_macros" 
+          name="quote_subject" 
+          arg-sender="{$post.username}"
+          />
+</mail:subject>
+
+<xf:macro template="sv_mention_macros"
+          name="quote"
+          arg-content="{$post}"
+          arg-message="{$post.message}"
+          arg-receiver="{$receiver}"
+          arg-user="{$post.User}"
+          arg-username="{$post.username}"
+          arg-contentType="post"
+          arg-contentLink="{{ link('canonical:posts', $post) }}"
+          arg-contentTitle="{{ prefix('thread', $thread, 'escaped') }}{$thread.title}" />
+
+<xf:macro template="sv_mention_macros" 
+          name="quote_footer"
+          />]]></template>
+  <template type="public" title="sv_alert_group_mention" version_id="2050000" version_string="2.5.0"><![CDATA[<xf:macro name="alert" 
+		  arg-alert="!"
+		  arg-extra="!"
+		  >
+	<xf:if is="$extra.sv_group">
+		<xf:set var="$group" value="{{ $extra.sv_group }}"/>
+	<xf:elseif is="$extra.taggedGroupId" />
+		<xf:set var="$group" value="{{ {'id': $extra.taggedGroupId, 'title': $extra.taggedGroup} }}"/>
+	</xf:if>
+	<xf:if is="$group">
+		<xf:set var="$link" value="{{ link('members/usergroup', {'user_group_id':$group.id}) }}"/>
+		<xf:set var="$attributes">class="ug" data-xf-click='overlay' data-usergroup-id='{$group.id}' data-groupname='{$group.title|for_attr}'</xf:set>
+		{{ phrase('sv_mentioned_as_y_group', {
+			'title': '<a href="' . $link . '" ' . $attributes .'>' . $group.title . '</a>'
+		}) }}
+	</xf:if>
+</xf:macro>
+
+<xf:macro name="push" 
+		  arg-alert="!"
+		  arg-extra="!"
+		  >
+	<xf:if is="$extra.sv_group">
+		{{ phrase('sv_mentioned_as_y_group', {
+			'title': $extra.sv_group.title
+		}) }}
+	<xf:elseif is="$extra.taggedGroupId" />
+		{{ phrase('sv_mentioned_as_y_group', {
+			'title': $extra.taggedGroup
+		}) }}
+	</xf:if>
+</xf:macro>]]></template>
+  <template type="public" title="sv_members_usergroup" version_id="2060600" version_string="2.6.6"><![CDATA[<xf:title>{$userGroup.title}</xf:title>
+
+<xf:description>
+    <xf:if is="{$userGroup.sv_private}">{{ phrase('sv_user_group_is_private') }}</xf:if>
+</xf:description>
+
+<div class="block">
+    <div class="block-container">
+        <xf:if is="$userGroup.sv_avatar_s_url">
+            <div class="block-header">
+                <img src="{$userGroup.sv_avatar_s_url}"/>
+            </div>
+        </xf:if>
+        <ol class="block-body">
+            <xf:foreach loop="$users" key="$userId" value="$user">
+                <li class="block-row block-row--separated">
+                    <xf:macro template="member_list_macros" name="item" arg-user="{$user}"/>
+                </li>
+            </xf:foreach>
+        </ol>
+    </div>
+    <div class="block-outer block-outer--after">
+        <xf:pagenav link="account/likes" page="{$page}" perpage="{$perPage}" total="{$total}"/>
+    </div>
+</div>]]></template>
+</templates>

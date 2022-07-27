@@ -1,0 +1,49 @@
+<?php return array (
+  'time' => 1637749725,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        57 => 
+        array (
+          'ads_filters_id' => '57',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '48',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        58 => 
+        array (
+          'ads_filters_id' => '58',
+          'ads_filters_name' => 'Категория бизнеса',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '49',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kategoriya-biznesa',
+          'ads_filters_required' => '1',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      57 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      58 => 
+      array (
+        'ads_filters_name' => 'Категория бизнеса',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

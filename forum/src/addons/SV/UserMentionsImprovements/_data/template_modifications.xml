@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="alert_post_mention" modification_key="sv_umi_alert_post_mention" description="Extend mention with groups" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/$/]]></find>
+    <replace><![CDATA[$0
+<xf:macro template="sv_alert_group_mention" 
+		  name="alert" 
+		  arg-alert="{$alert}"
+		  arg-extra="{$extra}"
+		  />]]></replace>
+  </modification>
+  <modification type="public" template="alert_profile_post_comment_mention" modification_key="sv_umi_alert_profile_post_comment_mention" description="Extend mention with groups" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/$/]]></find>
+    <replace><![CDATA[$0
+<xf:macro template="sv_alert_group_mention" 
+		  name="alert" 
+		  arg-alert="{$alert}"
+		  arg-extra="{$extra}"
+		  />]]></replace>
+  </modification>
+  <modification type="public" template="alert_profile_post_mention" modification_key="sv_umi_alert_profile_post_mention" description="Extend mention with groups" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/$/]]></find>
+    <replace><![CDATA[$0
+<xf:macro template="sv_alert_group_mention" 
+		  name="alert" 
+		  arg-alert="{$alert}"
+		  arg-extra="{$extra}"
+		  />]]></replace>
+  </modification>
+  <modification type="public" template="alert_report_mention" modification_key="sv_umi_alert_report_mention" description="Extend mention with groups" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/$/]]></find>
+    <replace><![CDATA[$0
+<xf:macro template="sv_alert_group_mention" 
+		  name="alert" 
+		  arg-alert="{$alert}"
+		  arg-extra="{$extra}"
+		  />]]></replace>
+  </modification>
+  <modification type="public" template="editor" modification_key="sv_umi_editor" description="Add Editor integration" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<!--[XF:include_js]-->]]></find>
+    <replace><![CDATA[$0
+<xf:js addon="SV/UserMentionsImprovements" src="sv/mentionimprovements/editor-integration.js" min="1" />]]></replace>
+  </modification>
+  <modification type="public" template="helper_account" modification_key="sv_usermentionsimprovements_helper_account" description="Add additional account preferences" execution_order="6186" enabled="1" action="preg_replace">
+    <find><![CDATA[#(email_options_row.*?)([\t ]*</xf:checkboxrow>)#si]]></find>
+    <replace><![CDATA[$1
+<xf:if is="$xf.visitor.canReceiveMentionEmails()">
+	<xf:option 
+			   name="option[sv_email_on_mention]" 
+			   label="{{ phrase('sv_receive_email_when_mentioned') }}" 
+			   checked="{$xf.visitor.Option.sv_email_on_mention}" 
+			   />
+</xf:if>
+<xf:if is="$xf.visitor.canReceiveQuoteEmails()">
+	<xf:option 
+			   name="option[sv_email_on_quote]" 
+			   label="{{ phrase('sv_receive_email_when_quoted') }}" 
+			   checked="{$xf.visitor.Option.sv_email_on_quote}" 
+			   />
+</xf:if>
+$2]]></replace>
+  </modification>
+  <modification type="admin" template="option_template_registrationDefaults" modification_key="sv_umi_option_template_registrationDefaults" execution_order="15" enabled="1" action="str_replace">
+    <find><![CDATA[<div class="u-inputSpacer">]]></find>
+    <replace><![CDATA[$0
+<xf:include template="option_template_registrationDefaults_mentions" />]]></replace>
+  </modification>
+  <modification type="public" template="push_post_mention" modification_key="sv_umi_push_post_mention" description="Extend mention with groups" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/$/]]></find>
+    <replace><![CDATA[$0
+<xf:macro template="sv_alert_group_mention" 
+		  name="push" 
+		  arg-alert="{$alert}"
+		  arg-extra="{$extra}"
+		  />]]></replace>
+  </modification>
+  <modification type="public" template="push_profile_post_comment_mention" modification_key="sv_umi_push_profile_post_comment_mention" description="Extend mention with groups" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/$/]]></find>
+    <replace><![CDATA[$0
+<xf:macro template="sv_alert_group_mention" 
+		  name="push" 
+		  arg-alert="{$alert}"
+		  arg-extra="{$extra}"
+		  />]]></replace>
+  </modification>
+  <modification type="public" template="push_profile_post_mention" modification_key="sv_umi_push_profile_post_mention" description="Extend mention with groups" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/$/]]></find>
+    <replace><![CDATA[$0
+<xf:macro template="sv_alert_group_mention" 
+		  name="push" 
+		  arg-alert="{$alert}"
+		  arg-extra="{$extra}"
+		  />]]></replace>
+  </modification>
+  <modification type="public" template="push_report_mention" modification_key="sv_umi_push_report_mention" description="Extend mention with groups" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/$/]]></find>
+    <replace><![CDATA[$0
+<xf:macro template="sv_alert_group_mention" 
+		  name="push" 
+		  arg-alert="{$alert}"
+		  arg-extra="{$extra}"
+		  />]]></replace>
+  </modification>
+  <modification type="admin" template="tools_rebuild" modification_key="svUMI_tools_rebuild" description="Inject permission rebuild option" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[#(<xf:inforow>{{ phrase\('this_will_clean_up_permission_combinations_no_longer_in_use'\) }}.*?)(</xf:inforow>)#si]]></find>
+    <replace><![CDATA[$1
+	<xf:checkboxrow>
+		<xf:option name="sv_rebuild_perms" value="1"
+			label="{{ phrase('sv_rebuild_permissions') }}" />
+	</xf:checkboxrow>
+$2]]></replace>
+  </modification>
+  <modification type="admin" template="user_edit" modification_key="sv_umi_user_edit" execution_order="15" enabled="1" action="preg_replace">
+    <find><![CDATA[#<xf:option name="option\[email_on_conversation\]".*?</xf:option>.*?</xf:checkboxrow>#si]]></find>
+    <replace><![CDATA[$0
+<xf:include template="user_edits_mentions" />]]></replace>
+  </modification>
+  <modification type="admin" template="user_group_edit" modification_key="sv_usermentionsimprovements_user_group_edit" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:js src="xf/permission.js" min="1" />]]></find>
+    <replace><![CDATA[<xf:include template="user_group_edit_mentions" />
+$0]]></replace>
+  </modification>
+</template_modifications>

@@ -1,0 +1,100 @@
+<?php return array (
+  'time' => 1655615132,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        204 => 
+        array (
+          'ads_filters_id' => '204',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '194',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        205 => 
+        array (
+          'ads_filters_id' => '205',
+          'ads_filters_name' => 'Тип подключения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '195',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-podklyucheniya',
+          'ads_filters_required' => '0',
+        ),
+        206 => 
+        array (
+          'ads_filters_id' => '206',
+          'ads_filters_name' => 'Wi-fi',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '196',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'wi-fi',
+          'ads_filters_required' => '0',
+        ),
+        207 => 
+        array (
+          'ads_filters_id' => '207',
+          'ads_filters_name' => 'Датчик движения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '197',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'datchik-dvizheniya',
+          'ads_filters_required' => '0',
+        ),
+        208 => 
+        array (
+          'ads_filters_id' => '208',
+          'ads_filters_name' => 'Встроенный микрофон',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '198',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vstroennyy-mikrofon',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      204 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      205 => 
+      array (
+        'ads_filters_name' => 'Тип подключения',
+        'ads_filters_type' => 'select',
+      ),
+      206 => 
+      array (
+        'ads_filters_name' => 'Wi-fi',
+        'ads_filters_type' => 'select',
+      ),
+      207 => 
+      array (
+        'ads_filters_name' => 'Датчик движения',
+        'ads_filters_type' => 'select',
+      ),
+      208 => 
+      array (
+        'ads_filters_name' => 'Встроенный микрофон',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

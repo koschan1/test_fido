@@ -1,0 +1,202 @@
+<?php return array (
+  'time' => 1651812371,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        155 => 
+        array (
+          'ads_filters_id' => '155',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '136',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        144 => 
+        array (
+          'ads_filters_id' => '144',
+          'ads_filters_name' => 'Операционная система',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '137',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'operacionnaya-sistema',
+          'ads_filters_required' => '1',
+        ),
+        145 => 
+        array (
+          'ads_filters_id' => '145',
+          'ads_filters_name' => 'Встроенная память',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '138',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vstroennaya-pamyat',
+          'ads_filters_required' => '0',
+        ),
+        147 => 
+        array (
+          'ads_filters_id' => '147',
+          'ads_filters_name' => 'Диагональ экрана',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '140',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'diagonal-ekrana',
+          'ads_filters_required' => '0',
+        ),
+        148 => 
+        array (
+          'ads_filters_id' => '148',
+          'ads_filters_name' => 'Оперативная память',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '141',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'operativnaya-pamyat',
+          'ads_filters_required' => '0',
+        ),
+        149 => 
+        array (
+          'ads_filters_id' => '149',
+          'ads_filters_name' => 'Основная камера',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '142',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'osnovnaya-kamera',
+          'ads_filters_required' => '0',
+        ),
+        150 => 
+        array (
+          'ads_filters_id' => '150',
+          'ads_filters_name' => 'Фронтальная камера',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '143',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'frontalnaya-kamera',
+          'ads_filters_required' => '0',
+        ),
+        151 => 
+        array (
+          'ads_filters_id' => '151',
+          'ads_filters_name' => 'Слот для карты памяти',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '144',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'slot-dlya-karty-pamyati',
+          'ads_filters_required' => '0',
+        ),
+        152 => 
+        array (
+          'ads_filters_id' => '152',
+          'ads_filters_name' => '3G',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '145',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => '3g',
+          'ads_filters_required' => '0',
+        ),
+        153 => 
+        array (
+          'ads_filters_id' => '153',
+          'ads_filters_name' => '4G LTE',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '146',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => '4g-lte',
+          'ads_filters_required' => '0',
+        ),
+        154 => 
+        array (
+          'ads_filters_id' => '154',
+          'ads_filters_name' => 'GPS',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '147',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'gps',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      155 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      144 => 
+      array (
+        'ads_filters_name' => 'Операционная система',
+        'ads_filters_type' => 'select',
+      ),
+      145 => 
+      array (
+        'ads_filters_name' => 'Встроенная память',
+        'ads_filters_type' => 'select',
+      ),
+      147 => 
+      array (
+        'ads_filters_name' => 'Диагональ экрана',
+        'ads_filters_type' => 'select',
+      ),
+      148 => 
+      array (
+        'ads_filters_name' => 'Оперативная память',
+        'ads_filters_type' => 'select',
+      ),
+      149 => 
+      array (
+        'ads_filters_name' => 'Основная камера',
+        'ads_filters_type' => 'select',
+      ),
+      150 => 
+      array (
+        'ads_filters_name' => 'Фронтальная камера',
+        'ads_filters_type' => 'select',
+      ),
+      151 => 
+      array (
+        'ads_filters_name' => 'Слот для карты памяти',
+        'ads_filters_type' => 'select',
+      ),
+      152 => 
+      array (
+        'ads_filters_name' => '3G',
+        'ads_filters_type' => 'select',
+      ),
+      153 => 
+      array (
+        'ads_filters_name' => '4G LTE',
+        'ads_filters_type' => 'select',
+      ),
+      154 => 
+      array (
+        'ads_filters_name' => 'GPS',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

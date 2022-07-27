@@ -1,0 +1,66 @@
+<?php return array (
+  'time' => 1655616226,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        230 => 
+        array (
+          'ads_filters_id' => '230',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '220',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        231 => 
+        array (
+          'ads_filters_id' => '231',
+          'ads_filters_name' => 'Караоке',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '221',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'karaoke',
+          'ads_filters_required' => '0',
+        ),
+        232 => 
+        array (
+          'ads_filters_id' => '232',
+          'ads_filters_name' => 'Тип акустики',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '222',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-akustiki',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      230 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      231 => 
+      array (
+        'ads_filters_name' => 'Караоке',
+        'ads_filters_type' => 'select',
+      ),
+      232 => 
+      array (
+        'ads_filters_name' => 'Тип акустики',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

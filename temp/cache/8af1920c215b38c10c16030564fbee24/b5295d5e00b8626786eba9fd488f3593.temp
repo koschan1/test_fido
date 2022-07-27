@@ -1,0 +1,177 @@
+<?php return array (
+  'time' => 1655615217,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        6 => 
+        array (
+          'ads_filters_id' => '6',
+          'ads_filters_name' => 'Кто разместил',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '1',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kto-razmestil',
+          'ads_filters_required' => '1',
+        ),
+        56 => 
+        array (
+          'ads_filters_id' => '56',
+          'ads_filters_name' => 'Торг',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'radio',
+          'ads_filters_position' => '24',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'torg',
+          'ads_filters_required' => '0',
+        ),
+        53 => 
+        array (
+          'ads_filters_id' => '53',
+          'ads_filters_name' => 'Тип сделки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '44',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-sdelki',
+          'ads_filters_required' => '1',
+        ),
+        55 => 
+        array (
+          'ads_filters_id' => '55',
+          'ads_filters_name' => 'Тип строения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '46',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-stroeniya',
+          'ads_filters_required' => '1',
+        ),
+      ),
+      6 => 
+      array (
+        338 => 
+        array (
+          'ads_filters_id' => '338',
+          'ads_filters_name' => 'Название ЖК',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '2',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '6',
+          'ads_filters_alias' => 'nazvanie-zhk',
+          'ads_filters_required' => '1',
+        ),
+        340 => 
+        array (
+          'ads_filters_id' => '340',
+          'ads_filters_name' => 'Тип жилья',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '4',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '6',
+          'ads_filters_alias' => 'tip-zhilya',
+          'ads_filters_required' => '1',
+        ),
+        328 => 
+        array (
+          'ads_filters_id' => '328',
+          'ads_filters_name' => 'Комиссия',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'radio',
+          'ads_filters_position' => '5',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '6',
+          'ads_filters_alias' => 'komissiya',
+          'ads_filters_required' => '1',
+        ),
+      ),
+      338 => 
+      array (
+        339 => 
+        array (
+          'ads_filters_id' => '339',
+          'ads_filters_name' => 'Год сдачи в эксплуатацию',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '3',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '338',
+          'ads_filters_alias' => 'god-sdachi-v-ekspluataciyu',
+          'ads_filters_required' => '1',
+        ),
+      ),
+      328 => 
+      array (
+        332 => 
+        array (
+          'ads_filters_id' => '332',
+          'ads_filters_name' => 'Укажите процент',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '6',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '328',
+          'ads_filters_alias' => 'ukazhite-procent',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      6 => 
+      array (
+        'ads_filters_name' => 'Кто разместил',
+        'ads_filters_type' => 'select',
+      ),
+      338 => 
+      array (
+        'ads_filters_name' => 'Название ЖК',
+        'ads_filters_type' => 'select',
+      ),
+      339 => 
+      array (
+        'ads_filters_name' => 'Год сдачи в эксплуатацию',
+        'ads_filters_type' => 'select',
+      ),
+      340 => 
+      array (
+        'ads_filters_name' => 'Тип жилья',
+        'ads_filters_type' => 'select',
+      ),
+      328 => 
+      array (
+        'ads_filters_name' => 'Комиссия',
+        'ads_filters_type' => 'radio',
+      ),
+      332 => 
+      array (
+        'ads_filters_name' => 'Укажите процент',
+        'ads_filters_type' => 'input',
+      ),
+      56 => 
+      array (
+        'ads_filters_name' => 'Торг',
+        'ads_filters_type' => 'radio',
+      ),
+      53 => 
+      array (
+        'ads_filters_name' => 'Тип сделки',
+        'ads_filters_type' => 'select',
+      ),
+      55 => 
+      array (
+        'ads_filters_name' => 'Тип строения',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

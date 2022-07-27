@@ -1,0 +1,62 @@
+<?php return array (
+  'time' => 1655623320,
+  'data' => 
+  array (
+    'blog_category_chain' => 
+    array (
+      'stati' => 
+      array (
+        'blog_category_id' => '1',
+        'blog_category_name' => 'Статьи',
+        'blog_category_visible' => '1',
+        'blog_category_title' => 'Статьи',
+        'blog_category_id_position' => '0',
+        'blog_category_desc' => 'Статьи',
+        'blog_category_id_parent' => '0',
+        'blog_category_image' => '',
+        'blog_category_text' => '%3Cp%3E%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8%3C%2Fp%3E%0A',
+        'blog_category_alias' => 'stati',
+        'blog_category_h1' => 'Статьи',
+        'blog_category_chain' => 'stati',
+      ),
+    ),
+    'blog_category_id_parent' => 
+    array (
+      0 => 
+      array (
+        1 => 
+        array (
+          'blog_category_id' => '1',
+          'blog_category_name' => 'Статьи',
+          'blog_category_visible' => '1',
+          'blog_category_title' => 'Статьи',
+          'blog_category_id_position' => '0',
+          'blog_category_desc' => 'Статьи',
+          'blog_category_id_parent' => '0',
+          'blog_category_image' => '',
+          'blog_category_text' => '%3Cp%3E%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8%3C%2Fp%3E%0A',
+          'blog_category_alias' => 'stati',
+          'blog_category_h1' => 'Статьи',
+          'blog_category_chain' => 'stati',
+        ),
+      ),
+    ),
+    'blog_category_id' => 
+    array (
+      1 => 
+      array (
+        'blog_category_id_parent' => '0',
+        'blog_category_name' => 'Статьи',
+        'blog_category_title' => 'Статьи',
+        'blog_category_h1' => 'Статьи',
+        'blog_category_desc' => 'Статьи',
+        'blog_category_image' => '',
+        'blog_category_text' => '%3Cp%3E%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8%3C%2Fp%3E%0A',
+        'blog_category_alias' => 'stati',
+        'blog_category_visible' => '1',
+        'blog_category_id' => '1',
+        'blog_category_chain' => 'stati',
+      ),
+    ),
+  ),
+) ?>

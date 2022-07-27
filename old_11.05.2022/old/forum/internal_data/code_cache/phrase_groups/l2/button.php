@@ -1,0 +1,23 @@
+<?php
+return array (
+  'button.attach' => 'Прикрепить файлы',
+  'button.cancel' => 'Отменить',
+  'button.confirm' => 'Подтвердить',
+  'button.copy' => 'Копировать',
+  'button.delete' => 'Удалить',
+  'button.edit' => 'Редактировать',
+  'button.export' => 'Экспорт',
+  'button.hide' => 'Скрыть',
+  'button.import' => 'Импорт',
+  'button.login' => 'Войти',
+  'button.merge' => 'Объединить',
+  'button.move' => 'Переместить',
+  'button.preview' => 'Предпросмотр',
+  'button.purchase' => 'Приобрести',
+  'button.save' => 'Сохранить',
+  'button.search' => 'Найти',
+  'button.show' => 'Показать',
+  'button.sort' => 'Сортировать',
+  'button.submit' => 'Отправить',
+  'button.translate' => 'Перевести',
+);

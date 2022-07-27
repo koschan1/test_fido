@@ -1,0 +1,398 @@
+<?php return array (
+  'time' => 1655622869,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        6 => 
+        array (
+          'ads_filters_id' => '6',
+          'ads_filters_name' => 'Кто разместил',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '1',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kto-razmestil',
+          'ads_filters_required' => '1',
+        ),
+        42 => 
+        array (
+          'ads_filters_id' => '42',
+          'ads_filters_name' => 'Комиссия',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '3',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'komissiya',
+          'ads_filters_required' => '0',
+        ),
+        44 => 
+        array (
+          'ads_filters_id' => '44',
+          'ads_filters_name' => 'Предоплата',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '4',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'predoplata',
+          'ads_filters_required' => '0',
+        ),
+        4 => 
+        array (
+          'ads_filters_id' => '4',
+          'ads_filters_name' => 'Кол-во комнат',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'radio',
+          'ads_filters_position' => '5',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kol-vo-komnat',
+          'ads_filters_required' => '1',
+        ),
+        13 => 
+        array (
+          'ads_filters_id' => '13',
+          'ads_filters_name' => 'Этажность дома',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'radio',
+          'ads_filters_position' => '7',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'etazhnost-doma',
+          'ads_filters_required' => '1',
+        ),
+        17 => 
+        array (
+          'ads_filters_id' => '17',
+          'ads_filters_name' => 'Ремонт',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '8',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'remont',
+          'ads_filters_required' => '0',
+        ),
+        21 => 
+        array (
+          'ads_filters_id' => '21',
+          'ads_filters_name' => 'Тип дома',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '9',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-doma',
+          'ads_filters_required' => '1',
+        ),
+        26 => 
+        array (
+          'ads_filters_id' => '26',
+          'ads_filters_name' => 'Материал дома',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '10',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'material-doma',
+          'ads_filters_required' => '0',
+        ),
+        31 => 
+        array (
+          'ads_filters_id' => '31',
+          'ads_filters_name' => 'Количество спален',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '11',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kolichestvo-spalen',
+          'ads_filters_required' => '0',
+        ),
+        24 => 
+        array (
+          'ads_filters_id' => '24',
+          'ads_filters_name' => 'Площадь дома, м²',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '12',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ploshchad-doma-m',
+          'ads_filters_required' => '1',
+        ),
+        46 => 
+        array (
+          'ads_filters_id' => '46',
+          'ads_filters_name' => 'Рядом есть',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'chkbx',
+          'ads_filters_position' => '15',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ryadom-est',
+          'ads_filters_required' => '0',
+        ),
+        25 => 
+        array (
+          'ads_filters_id' => '25',
+          'ads_filters_name' => 'Водоснабжение',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '18',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vodosnabzhenie',
+          'ads_filters_required' => '0',
+        ),
+        22 => 
+        array (
+          'ads_filters_id' => '22',
+          'ads_filters_name' => 'Электричество',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'radio',
+          'ads_filters_position' => '19',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'elektrichestvo',
+          'ads_filters_required' => '0',
+        ),
+        30 => 
+        array (
+          'ads_filters_id' => '30',
+          'ads_filters_name' => 'Отопление',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'chkbx',
+          'ads_filters_position' => '20',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'otoplenie',
+          'ads_filters_required' => '0',
+        ),
+        23 => 
+        array (
+          'ads_filters_id' => '23',
+          'ads_filters_name' => 'Газ',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '21',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'gaz',
+          'ads_filters_required' => '0',
+        ),
+        29 => 
+        array (
+          'ads_filters_id' => '29',
+          'ads_filters_name' => 'Санузлы',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'chkbx',
+          'ads_filters_position' => '22',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'sanuzli',
+          'ads_filters_required' => '0',
+        ),
+        32 => 
+        array (
+          'ads_filters_id' => '32',
+          'ads_filters_name' => 'Гараж',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '23',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'garazh',
+          'ads_filters_required' => '0',
+        ),
+      ),
+      6 => 
+      array (
+        338 => 
+        array (
+          'ads_filters_id' => '338',
+          'ads_filters_name' => 'Название ЖК',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '2',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '6',
+          'ads_filters_alias' => 'nazvanie-zhk',
+          'ads_filters_required' => '1',
+        ),
+        340 => 
+        array (
+          'ads_filters_id' => '340',
+          'ads_filters_name' => 'Тип жилья',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '4',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '6',
+          'ads_filters_alias' => 'tip-zhilya',
+          'ads_filters_required' => '1',
+        ),
+        328 => 
+        array (
+          'ads_filters_id' => '328',
+          'ads_filters_name' => 'Комиссия',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'radio',
+          'ads_filters_position' => '5',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '6',
+          'ads_filters_alias' => 'komissiya',
+          'ads_filters_required' => '1',
+        ),
+      ),
+      338 => 
+      array (
+        339 => 
+        array (
+          'ads_filters_id' => '339',
+          'ads_filters_name' => 'Год сдачи в эксплуатацию',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '3',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '338',
+          'ads_filters_alias' => 'god-sdachi-v-ekspluataciyu',
+          'ads_filters_required' => '1',
+        ),
+      ),
+      328 => 
+      array (
+        332 => 
+        array (
+          'ads_filters_id' => '332',
+          'ads_filters_name' => 'Укажите процент',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '6',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '328',
+          'ads_filters_alias' => 'ukazhite-procent',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      6 => 
+      array (
+        'ads_filters_name' => 'Кто разместил',
+        'ads_filters_type' => 'select',
+      ),
+      338 => 
+      array (
+        'ads_filters_name' => 'Название ЖК',
+        'ads_filters_type' => 'select',
+      ),
+      42 => 
+      array (
+        'ads_filters_name' => 'Комиссия',
+        'ads_filters_type' => 'select',
+      ),
+      339 => 
+      array (
+        'ads_filters_name' => 'Год сдачи в эксплуатацию',
+        'ads_filters_type' => 'select',
+      ),
+      44 => 
+      array (
+        'ads_filters_name' => 'Предоплата',
+        'ads_filters_type' => 'select',
+      ),
+      340 => 
+      array (
+        'ads_filters_name' => 'Тип жилья',
+        'ads_filters_type' => 'select',
+      ),
+      4 => 
+      array (
+        'ads_filters_name' => 'Кол-во комнат',
+        'ads_filters_type' => 'radio',
+      ),
+      328 => 
+      array (
+        'ads_filters_name' => 'Комиссия',
+        'ads_filters_type' => 'radio',
+      ),
+      332 => 
+      array (
+        'ads_filters_name' => 'Укажите процент',
+        'ads_filters_type' => 'input',
+      ),
+      13 => 
+      array (
+        'ads_filters_name' => 'Этажность дома',
+        'ads_filters_type' => 'radio',
+      ),
+      17 => 
+      array (
+        'ads_filters_name' => 'Ремонт',
+        'ads_filters_type' => 'select',
+      ),
+      21 => 
+      array (
+        'ads_filters_name' => 'Тип дома',
+        'ads_filters_type' => 'select',
+      ),
+      26 => 
+      array (
+        'ads_filters_name' => 'Материал дома',
+        'ads_filters_type' => 'select',
+      ),
+      31 => 
+      array (
+        'ads_filters_name' => 'Количество спален',
+        'ads_filters_type' => 'input',
+      ),
+      24 => 
+      array (
+        'ads_filters_name' => 'Площадь дома, м²',
+        'ads_filters_type' => 'input',
+      ),
+      46 => 
+      array (
+        'ads_filters_name' => 'Рядом есть',
+        'ads_filters_type' => 'chkbx',
+      ),
+      25 => 
+      array (
+        'ads_filters_name' => 'Водоснабжение',
+        'ads_filters_type' => 'select',
+      ),
+      22 => 
+      array (
+        'ads_filters_name' => 'Электричество',
+        'ads_filters_type' => 'radio',
+      ),
+      30 => 
+      array (
+        'ads_filters_name' => 'Отопление',
+        'ads_filters_type' => 'chkbx',
+      ),
+      23 => 
+      array (
+        'ads_filters_name' => 'Газ',
+        'ads_filters_type' => 'select',
+      ),
+      29 => 
+      array (
+        'ads_filters_name' => 'Санузлы',
+        'ads_filters_type' => 'chkbx',
+      ),
+      32 => 
+      array (
+        'ads_filters_name' => 'Гараж',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

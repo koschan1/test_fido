@@ -1,0 +1,117 @@
+<?php return array (
+  'time' => 1652077448,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        198 => 
+        array (
+          'ads_filters_id' => '198',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '188',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        199 => 
+        array (
+          'ads_filters_id' => '199',
+          'ads_filters_name' => 'Качество видео',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '189',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kachestvo-video',
+          'ads_filters_required' => '0',
+        ),
+        200 => 
+        array (
+          'ads_filters_id' => '200',
+          'ads_filters_name' => 'Формат носителя',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '190',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'format-nositelya',
+          'ads_filters_required' => '0',
+        ),
+        201 => 
+        array (
+          'ads_filters_id' => '201',
+          'ads_filters_name' => 'Видоискатель',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '191',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vidoiskatel',
+          'ads_filters_required' => '0',
+        ),
+        202 => 
+        array (
+          'ads_filters_id' => '202',
+          'ads_filters_name' => 'Стабилизатор изображения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '192',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'stabilizator-izobrazheniya',
+          'ads_filters_required' => '0',
+        ),
+        203 => 
+        array (
+          'ads_filters_id' => '203',
+          'ads_filters_name' => 'Экшн-камера',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '193',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ekshn-kamera',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      198 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      199 => 
+      array (
+        'ads_filters_name' => 'Качество видео',
+        'ads_filters_type' => 'select',
+      ),
+      200 => 
+      array (
+        'ads_filters_name' => 'Формат носителя',
+        'ads_filters_type' => 'select',
+      ),
+      201 => 
+      array (
+        'ads_filters_name' => 'Видоискатель',
+        'ads_filters_type' => 'select',
+      ),
+      202 => 
+      array (
+        'ads_filters_name' => 'Стабилизатор изображения',
+        'ads_filters_type' => 'select',
+      ),
+      203 => 
+      array (
+        'ads_filters_name' => 'Экшн-камера',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

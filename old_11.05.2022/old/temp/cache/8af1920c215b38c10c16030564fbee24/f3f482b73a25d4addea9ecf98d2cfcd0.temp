@@ -1,0 +1,49 @@
+<?php return array (
+  'time' => 1637620300,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        273 => 
+        array (
+          'ads_filters_id' => '273',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '263',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        274 => 
+        array (
+          'ads_filters_id' => '274',
+          'ads_filters_name' => 'Вид спорта',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '264',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vid-sporta',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      273 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      274 => 
+      array (
+        'ads_filters_name' => 'Вид спорта',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

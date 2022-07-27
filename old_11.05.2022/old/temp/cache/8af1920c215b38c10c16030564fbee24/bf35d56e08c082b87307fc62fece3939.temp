@@ -1,0 +1,185 @@
+<?php return array (
+  'time' => 1637949678,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        6 => 
+        array (
+          'ads_filters_id' => '6',
+          'ads_filters_name' => 'Кто разместил',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '1',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kto-razmestil',
+          'ads_filters_required' => '1',
+        ),
+        4 => 
+        array (
+          'ads_filters_id' => '4',
+          'ads_filters_name' => 'Комнат в квартире',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '3',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'komnat-v-kvartire',
+          'ads_filters_required' => '1',
+        ),
+        5 => 
+        array (
+          'ads_filters_id' => '5',
+          'ads_filters_name' => 'Общая площадь, м²',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '4',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'obshchaya-ploshchad',
+          'ads_filters_required' => '1',
+        ),
+        11 => 
+        array (
+          'ads_filters_id' => '11',
+          'ads_filters_name' => 'До метро',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '7',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'do-metro',
+          'ads_filters_required' => '0',
+        ),
+        13 => 
+        array (
+          'ads_filters_id' => '13',
+          'ads_filters_name' => 'Этажность дома',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '9',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'etazhnost-doma',
+          'ads_filters_required' => '0',
+        ),
+        14 => 
+        array (
+          'ads_filters_id' => '14',
+          'ads_filters_name' => 'Тип дома',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '10',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-doma',
+          'ads_filters_required' => '0',
+        ),
+        17 => 
+        array (
+          'ads_filters_id' => '17',
+          'ads_filters_name' => 'Ремонт',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '13',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'remont',
+          'ads_filters_required' => '0',
+        ),
+        18 => 
+        array (
+          'ads_filters_id' => '18',
+          'ads_filters_name' => 'Год постройки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '14',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'god-postroyki',
+          'ads_filters_required' => '0',
+        ),
+        43 => 
+        array (
+          'ads_filters_id' => '43',
+          'ads_filters_name' => 'Стиральная машина',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '34',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'stiralnaya-mashina',
+          'ads_filters_required' => '0',
+        ),
+        46 => 
+        array (
+          'ads_filters_id' => '46',
+          'ads_filters_name' => 'Посудомоечная машина',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '37',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'posudomoechnaya-mashina',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      6 => 
+      array (
+        'ads_filters_name' => 'Кто разместил',
+        'ads_filters_type' => 'select',
+      ),
+      4 => 
+      array (
+        'ads_filters_name' => 'Комнат в квартире',
+        'ads_filters_type' => 'select',
+      ),
+      5 => 
+      array (
+        'ads_filters_name' => 'Общая площадь, м²',
+        'ads_filters_type' => 'input',
+      ),
+      11 => 
+      array (
+        'ads_filters_name' => 'До метро',
+        'ads_filters_type' => 'select',
+      ),
+      13 => 
+      array (
+        'ads_filters_name' => 'Этажность дома',
+        'ads_filters_type' => 'input',
+      ),
+      14 => 
+      array (
+        'ads_filters_name' => 'Тип дома',
+        'ads_filters_type' => 'select',
+      ),
+      17 => 
+      array (
+        'ads_filters_name' => 'Ремонт',
+        'ads_filters_type' => 'select',
+      ),
+      18 => 
+      array (
+        'ads_filters_name' => 'Год постройки',
+        'ads_filters_type' => 'input',
+      ),
+      43 => 
+      array (
+        'ads_filters_name' => 'Стиральная машина',
+        'ads_filters_type' => 'select',
+      ),
+      46 => 
+      array (
+        'ads_filters_name' => 'Посудомоечная машина',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

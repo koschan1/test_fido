@@ -1,0 +1,134 @@
+<?php return array (
+  'time' => 1651812492,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        218 => 
+        array (
+          'ads_filters_id' => '218',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '208',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        219 => 
+        array (
+          'ads_filters_id' => '219',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '209',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        220 => 
+        array (
+          'ads_filters_id' => '220',
+          'ads_filters_name' => 'Диагональ экрана',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '210',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'diagonal-ekrana',
+          'ads_filters_required' => '0',
+        ),
+        221 => 
+        array (
+          'ads_filters_id' => '221',
+          'ads_filters_name' => 'Smart TV',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '211',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'smart-tv',
+          'ads_filters_required' => '0',
+        ),
+        222 => 
+        array (
+          'ads_filters_id' => '222',
+          'ads_filters_name' => 'Поддержка 3D',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '212',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'podderzhka-3d',
+          'ads_filters_required' => '0',
+        ),
+        223 => 
+        array (
+          'ads_filters_id' => '223',
+          'ads_filters_name' => 'Разрешение экрана',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '213',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'razreshenie-ekrana',
+          'ads_filters_required' => '0',
+        ),
+        224 => 
+        array (
+          'ads_filters_id' => '224',
+          'ads_filters_name' => 'Wi-Fi',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '214',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'wi-fi',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      218 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      219 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      220 => 
+      array (
+        'ads_filters_name' => 'Диагональ экрана',
+        'ads_filters_type' => 'select',
+      ),
+      221 => 
+      array (
+        'ads_filters_name' => 'Smart TV',
+        'ads_filters_type' => 'select',
+      ),
+      222 => 
+      array (
+        'ads_filters_name' => 'Поддержка 3D',
+        'ads_filters_type' => 'select',
+      ),
+      223 => 
+      array (
+        'ads_filters_name' => 'Разрешение экрана',
+        'ads_filters_type' => 'select',
+      ),
+      224 => 
+      array (
+        'ads_filters_name' => 'Wi-Fi',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

@@ -1,0 +1,103 @@
+<?php return array (
+  'time' => 1652256142,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      143 => 
+      array (
+        352 => 
+        array (
+          'ads_filters_id' => '352',
+          'ads_filters_name' => 'Модель',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '0',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '143',
+          'ads_filters_alias' => 'model',
+          'ads_filters_required' => '1',
+        ),
+      ),
+      0 => 
+      array (
+        143 => 
+        array (
+          'ads_filters_id' => '143',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '135',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        144 => 
+        array (
+          'ads_filters_id' => '144',
+          'ads_filters_name' => 'Операционная система',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '137',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'operacionnaya-sistema',
+          'ads_filters_required' => '1',
+        ),
+        145 => 
+        array (
+          'ads_filters_id' => '145',
+          'ads_filters_name' => 'Встроенная память',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '138',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vstroennaya-pamyat',
+          'ads_filters_required' => '0',
+        ),
+        146 => 
+        array (
+          'ads_filters_id' => '146',
+          'ads_filters_name' => 'Срок использования',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '139',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'srok-ispolzovaniya',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      352 => 
+      array (
+        'ads_filters_name' => 'Модель',
+        'ads_filters_type' => 'select',
+      ),
+      143 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      144 => 
+      array (
+        'ads_filters_name' => 'Операционная система',
+        'ads_filters_type' => 'select',
+      ),
+      145 => 
+      array (
+        'ads_filters_name' => 'Встроенная память',
+        'ads_filters_type' => 'select',
+      ),
+      146 => 
+      array (
+        'ads_filters_name' => 'Срок использования',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

@@ -1,0 +1,67 @@
+User-agent: *
+Allow: /blog/
+Allow: /turbo/blog.rss
+Allow: /user/
+Allow: /board/
+Disallow: /admin/
+Disallow: /log/
+Disallow: /systems/
+Disallow: /lang/
+Disallow: /profile?activation_hash
+Disallow: *?filter
+Disallow: *?price_start
+Disallow: *?OutSum
+
+Disallow: /media/
+Disallow: /temp/
+Disallow: /templates/
+Disallow: /cp_615dbaa20a2ac/
+Disallow: *?filter[sort]=
+
+User-agent: Yandex
+Clean-param: filter[sort] /ru/uzbekistan/
+Clean-param: filter[sort] /ru/tashkent/elektronika/telefony-i-planshety/
+Clean-param: filter[sort] /ru/tashkent/nedvizhimost/prodazha-kvartiri/
+Clean-param: filter[sort] /ru/tashkent/
+Clean-param: filter[sort] /ru/uzbekistan/uslugi/
+
+
+
+
+
+User-agent: Yandex
+Allow: /blog/
+Allow: /turbo/blog.rss
+Allow: /board/
+Allow: /user/
+Disallow: /admin/
+Disallow: /log/
+Disallow: /systems/
+Disallow: /lang/
+Disallow: /profile?activation_hash
+Disallow: *?filter
+Disallow: *?price_start
+Disallow: *?currency
+Disallow: *?OutSum
+
+
+User-agent: Googlebot
+Allow: /blog/
+Allow: /turbo/blog.rss
+Allow: /board/
+Allow: /user/
+Disallow: /profile?activation_hash
+Disallow: /admin/
+Disallow: /log/
+Disallow: /systems/
+Disallow: /lang/
+Disallow: *?currency
+Disallow: /profile?activation_hash
+Disallow: *?filter
+Disallow: *?price_start
+Disallow: *?currency
+Disallow: *?OutSum
+
+
+host: https://ttxon.uz
+Sitemap: https://ttxon.uz/sitemap.xml

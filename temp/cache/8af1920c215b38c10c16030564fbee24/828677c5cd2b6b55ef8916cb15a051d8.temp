@@ -1,0 +1,100 @@
+<?php return array (
+  'time' => 1655619887,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        146 => 
+        array (
+          'ads_filters_id' => '146',
+          'ads_filters_name' => 'Срок использования',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '139',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'srok-ispolzovaniya',
+          'ads_filters_required' => '0',
+        ),
+        172 => 
+        array (
+          'ads_filters_id' => '172',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '162',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        173 => 
+        array (
+          'ads_filters_id' => '173',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '163',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        174 => 
+        array (
+          'ads_filters_id' => '174',
+          'ads_filters_name' => 'Диагональ экрана',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '164',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'diagonal-ekrana',
+          'ads_filters_required' => '0',
+        ),
+        175 => 
+        array (
+          'ads_filters_id' => '175',
+          'ads_filters_name' => 'Оперативная память',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '165',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'operativnaya-pamyat',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      146 => 
+      array (
+        'ads_filters_name' => 'Срок использования',
+        'ads_filters_type' => 'select',
+      ),
+      172 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      173 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      174 => 
+      array (
+        'ads_filters_name' => 'Диагональ экрана',
+        'ads_filters_type' => 'select',
+      ),
+      175 => 
+      array (
+        'ads_filters_name' => 'Оперативная память',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

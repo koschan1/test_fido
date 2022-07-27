@@ -1,0 +1,83 @@
+<?php return array (
+  'time' => 1637917424,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        6 => 
+        array (
+          'ads_filters_id' => '6',
+          'ads_filters_name' => 'Кто разместил',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '1',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kto-razmestil',
+          'ads_filters_required' => '1',
+        ),
+        52 => 
+        array (
+          'ads_filters_id' => '52',
+          'ads_filters_name' => 'Тип строения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '43',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-stroeniya',
+          'ads_filters_required' => '1',
+        ),
+        53 => 
+        array (
+          'ads_filters_id' => '53',
+          'ads_filters_name' => 'Тип сделки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '44',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-sdelki',
+          'ads_filters_required' => '1',
+        ),
+        54 => 
+        array (
+          'ads_filters_id' => '54',
+          'ads_filters_name' => 'Площадь, м²',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '45',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ploshchad-m2',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      6 => 
+      array (
+        'ads_filters_name' => 'Кто разместил',
+        'ads_filters_type' => 'select',
+      ),
+      52 => 
+      array (
+        'ads_filters_name' => 'Тип строения',
+        'ads_filters_type' => 'select',
+      ),
+      53 => 
+      array (
+        'ads_filters_name' => 'Тип сделки',
+        'ads_filters_type' => 'select',
+      ),
+      54 => 
+      array (
+        'ads_filters_name' => 'Площадь, м²',
+        'ads_filters_type' => 'input',
+      ),
+    ),
+  ),
+) ?>

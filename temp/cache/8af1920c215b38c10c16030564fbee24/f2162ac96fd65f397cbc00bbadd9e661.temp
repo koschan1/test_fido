@@ -1,0 +1,211 @@
+<?php return array (
+  'time' => 1655615346,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      302 => 
+      array (
+        350 => 
+        array (
+          'ads_filters_id' => '350',
+          'ads_filters_name' => 'Позиция авто',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'radio',
+          'ads_filters_position' => '0',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '302',
+          'ads_filters_alias' => 'poziciya-avto',
+          'ads_filters_required' => '1',
+        ),
+      ),
+      312 => 
+      array (
+        351 => 
+        array (
+          'ads_filters_id' => '351',
+          'ads_filters_name' => 'Вид топлива',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'radio',
+          'ads_filters_position' => '0',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '312',
+          'ads_filters_alias' => 'vid-topliva',
+          'ads_filters_required' => '0',
+        ),
+      ),
+      0 => 
+      array (
+        90 => 
+        array (
+          'ads_filters_id' => '90',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '81',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        308 => 
+        array (
+          'ads_filters_id' => '308',
+          'ads_filters_name' => 'Коробка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '292',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'korobka',
+          'ads_filters_required' => '0',
+        ),
+        310 => 
+        array (
+          'ads_filters_id' => '310',
+          'ads_filters_name' => 'Пробег, км',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '294',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'probeg-km',
+          'ads_filters_required' => '0',
+        ),
+        311 => 
+        array (
+          'ads_filters_id' => '311',
+          'ads_filters_name' => 'Год',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '295',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'god',
+          'ads_filters_required' => '0',
+        ),
+        312 => 
+        array (
+          'ads_filters_id' => '312',
+          'ads_filters_name' => 'Тип двигателя',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '296',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-dvigatelya',
+          'ads_filters_required' => '0',
+        ),
+        314 => 
+        array (
+          'ads_filters_id' => '314',
+          'ads_filters_name' => 'Объем, л',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '298',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'obem-l',
+          'ads_filters_required' => '0',
+        ),
+        315 => 
+        array (
+          'ads_filters_id' => '315',
+          'ads_filters_name' => 'Состояние',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'chkbx',
+          'ads_filters_position' => '299',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'sostoyanie',
+          'ads_filters_required' => '0',
+        ),
+        349 => 
+        array (
+          'ads_filters_id' => '349',
+          'ads_filters_name' => 'Аренда с выкупом',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'radio',
+          'ads_filters_position' => '309',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'arenda-s-vykupom',
+          'ads_filters_required' => '0',
+        ),
+      ),
+      90 => 
+      array (
+        302 => 
+        array (
+          'ads_filters_id' => '302',
+          'ads_filters_name' => 'Модель',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '82',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '90',
+          'ads_filters_alias' => 'model',
+          'ads_filters_required' => '1',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      350 => 
+      array (
+        'ads_filters_name' => 'Позиция авто',
+        'ads_filters_type' => 'radio',
+      ),
+      351 => 
+      array (
+        'ads_filters_name' => 'Вид топлива',
+        'ads_filters_type' => 'radio',
+      ),
+      90 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      302 => 
+      array (
+        'ads_filters_name' => 'Модель',
+        'ads_filters_type' => 'select',
+      ),
+      308 => 
+      array (
+        'ads_filters_name' => 'Коробка',
+        'ads_filters_type' => 'select',
+      ),
+      310 => 
+      array (
+        'ads_filters_name' => 'Пробег, км',
+        'ads_filters_type' => 'input',
+      ),
+      311 => 
+      array (
+        'ads_filters_name' => 'Год',
+        'ads_filters_type' => 'input',
+      ),
+      312 => 
+      array (
+        'ads_filters_name' => 'Тип двигателя',
+        'ads_filters_type' => 'select',
+      ),
+      314 => 
+      array (
+        'ads_filters_name' => 'Объем, л',
+        'ads_filters_type' => 'input',
+      ),
+      315 => 
+      array (
+        'ads_filters_name' => 'Состояние',
+        'ads_filters_type' => 'chkbx',
+      ),
+      349 => 
+      array (
+        'ads_filters_name' => 'Аренда с выкупом',
+        'ads_filters_type' => 'radio',
+      ),
+    ),
+  ),
+) ?>

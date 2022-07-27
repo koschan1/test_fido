@@ -1,0 +1,168 @@
+<?php return array (
+  'time' => 1637602668,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        6 => 
+        array (
+          'ads_filters_id' => '6',
+          'ads_filters_name' => 'Кто разместил',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '1',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kto-razmestil',
+          'ads_filters_required' => '1',
+        ),
+        22 => 
+        array (
+          'ads_filters_id' => '22',
+          'ads_filters_name' => 'Электричество',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '16',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'elektrichestvo',
+          'ads_filters_required' => '0',
+        ),
+        23 => 
+        array (
+          'ads_filters_id' => '23',
+          'ads_filters_name' => 'Газ',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '17',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'gaz',
+          'ads_filters_required' => '0',
+        ),
+        25 => 
+        array (
+          'ads_filters_id' => '25',
+          'ads_filters_name' => 'Водоснабжение',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '19',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vodosnabzhenie',
+          'ads_filters_required' => '0',
+        ),
+        27 => 
+        array (
+          'ads_filters_id' => '27',
+          'ads_filters_name' => 'Тип участка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '21',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-uchastka',
+          'ads_filters_required' => '1',
+        ),
+        28 => 
+        array (
+          'ads_filters_id' => '28',
+          'ads_filters_name' => 'Площадь участка, сот.',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '22',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ploshchad-uchastka-sot',
+          'ads_filters_required' => '1',
+        ),
+        30 => 
+        array (
+          'ads_filters_id' => '30',
+          'ads_filters_name' => 'Отопление',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '24',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'otoplenie',
+          'ads_filters_required' => '0',
+        ),
+        34 => 
+        array (
+          'ads_filters_id' => '34',
+          'ads_filters_name' => 'Срок владения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '28',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'srok-vladeniya',
+          'ads_filters_required' => '0',
+        ),
+        56 => 
+        array (
+          'ads_filters_id' => '56',
+          'ads_filters_name' => 'Торг',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '47',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'torg',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      6 => 
+      array (
+        'ads_filters_name' => 'Кто разместил',
+        'ads_filters_type' => 'select',
+      ),
+      22 => 
+      array (
+        'ads_filters_name' => 'Электричество',
+        'ads_filters_type' => 'select',
+      ),
+      23 => 
+      array (
+        'ads_filters_name' => 'Газ',
+        'ads_filters_type' => 'select',
+      ),
+      25 => 
+      array (
+        'ads_filters_name' => 'Водоснабжение',
+        'ads_filters_type' => 'select',
+      ),
+      27 => 
+      array (
+        'ads_filters_name' => 'Тип участка',
+        'ads_filters_type' => 'select',
+      ),
+      28 => 
+      array (
+        'ads_filters_name' => 'Площадь участка, сот.',
+        'ads_filters_type' => 'input',
+      ),
+      30 => 
+      array (
+        'ads_filters_name' => 'Отопление',
+        'ads_filters_type' => 'select',
+      ),
+      34 => 
+      array (
+        'ads_filters_name' => 'Срок владения',
+        'ads_filters_type' => 'select',
+      ),
+      56 => 
+      array (
+        'ads_filters_name' => 'Торг',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

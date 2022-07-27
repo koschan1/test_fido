@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class_extensions>
+  <extension from_class="XF\Admin\Controller\Tools" to_class="SV\UserMentionsImprovements\XF\Admin\Controller\Tools" execute_order="10" active="1"/>
+  <extension from_class="XF\Admin\Controller\User" to_class="SV\UserMentionsImprovements\XF\Admin\Controller\User" execute_order="15" active="1"/>
+  <extension from_class="XF\Admin\Controller\UserGroup" to_class="SV\UserMentionsImprovements\XF\Admin\Controller\UserGroup" execute_order="15" active="1"/>
+  <extension from_class="XF\BbCode\ProcessorAction\MentionUsers" to_class="SV\UserMentionsImprovements\XF\BbCode\ProcessorAction\MentionUsers" execute_order="15" active="1"/>
+  <extension from_class="XF\BbCode\RuleSet" to_class="SV\UserMentionsImprovements\XF\BbCode\RuleSet" execute_order="15" active="1"/>
+  <extension from_class="XF\ChangeLog\User" to_class="SV\UserMentionsImprovements\XF\ChangeLog\User" execute_order="15" active="1"/>
+  <extension from_class="XF\Entity\User" to_class="SV\UserMentionsImprovements\XF\Entity\User" execute_order="15" active="1"/>
+  <extension from_class="XF\Entity\UserGroup" to_class="SV\UserMentionsImprovements\XF\Entity\UserGroup" execute_order="15" active="1"/>
+  <extension from_class="XF\Entity\UserOption" to_class="SV\UserMentionsImprovements\XF\Entity\UserOption" execute_order="15" active="1"/>
+  <extension from_class="XF\Finder\UserGroup" to_class="SV\UserMentionsImprovements\XF\Finder\UserGroup" execute_order="15" active="1"/>
+  <extension from_class="XF\Job\PermissionRebuild" to_class="SV\UserMentionsImprovements\XF\Job\PermissionRebuild" execute_order="10" active="1"/>
+  <extension from_class="XF\Notifier\Post\Mention" to_class="SV\UserMentionsImprovements\XF\Notifier\Post\Mention" execute_order="15" active="1"/>
+  <extension from_class="XF\Notifier\Post\Quote" to_class="SV\UserMentionsImprovements\XF\Notifier\Post\Quote" execute_order="15" active="1"/>
+  <extension from_class="XF\Pub\Controller\Account" to_class="SV\UserMentionsImprovements\XF\Pub\Controller\Account" execute_order="15" active="1"/>
+  <extension from_class="XF\Pub\Controller\Member" to_class="SV\UserMentionsImprovements\XF\Pub\Controller\Member" execute_order="15" active="1"/>
+  <extension from_class="XF\Pub\View\Member\Find" to_class="SV\UserMentionsImprovements\XF\Pub\View\Member\Find" execute_order="15" active="1"/>
+  <extension from_class="XF\Repository\UserAlert" to_class="SV\UserMentionsImprovements\XF\Repository\UserAlert" execute_order="15" active="1"/>
+  <extension from_class="XF\Service\Message\Preparer" to_class="SV\UserMentionsImprovements\XF\Service\Message\Preparer" execute_order="15" active="1"/>
+  <extension from_class="XF\Service\Post\Notifier" to_class="SV\UserMentionsImprovements\XF\Service\Post\Notifier" execute_order="15" active="1"/>
+  <extension from_class="XF\Service\Post\Preparer" to_class="SV\UserMentionsImprovements\XF\Service\Post\Preparer" execute_order="10" active="1"/>
+  <extension from_class="XF\Service\ProfilePostComment\Notifier" to_class="SV\UserMentionsImprovements\XF\Service\ProfilePostComment\Notifier" execute_order="10" active="1"/>
+  <extension from_class="XF\Service\ProfilePostComment\Preparer" to_class="SV\UserMentionsImprovements\XF\Service\ProfilePostComment\Preparer" execute_order="15" active="1"/>
+  <extension from_class="XF\Service\ProfilePost\Notifier" to_class="SV\UserMentionsImprovements\XF\Service\ProfilePost\Notifier" execute_order="10" active="1"/>
+  <extension from_class="XF\Service\ProfilePost\Preparer" to_class="SV\UserMentionsImprovements\XF\Service\ProfilePost\Preparer" execute_order="15" active="1"/>
+  <extension from_class="XF\Service\Report\Notifier" to_class="SV\UserMentionsImprovements\XF\Service\Report\Notifier" execute_order="10" active="1"/>
+  <extension from_class="XF\Service\StructuredText\Preparer" to_class="SV\UserMentionsImprovements\XF\Service\StructuredText\Preparer" execute_order="15" active="1"/>
+  <extension from_class="XF\Service\UpdatePermissions" to_class="SV\UserMentionsImprovements\XF\Service\UpdatePermissions" execute_order="10" active="1"/>
+  <extension from_class="XF\Str\Formatter" to_class="SV\UserMentionsImprovements\XF\Str\Formatter" execute_order="15" active="1"/>
+  <extension from_class="XF\Str\MentionFormatter" to_class="SV\UserMentionsImprovements\XF\Str\MentionFormatter" execute_order="15" active="1"/>
+</class_extensions>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content_type_fields>
+  <field content_type="svMention" field_name="email_stop_class">SV\UserMentionsImprovements\EmailStop\Mention</field>
+  <field content_type="svQuote" field_name="email_stop_class">SV\UserMentionsImprovements\EmailStop\svQuote</field>
+</content_type_fields>

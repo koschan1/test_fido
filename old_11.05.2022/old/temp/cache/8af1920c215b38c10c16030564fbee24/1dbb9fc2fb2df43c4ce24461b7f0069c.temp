@@ -1,0 +1,168 @@
+<?php return array (
+  'time' => 1637388886,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        158 => 
+        array (
+          'ads_filters_id' => '158',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '148',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        159 => 
+        array (
+          'ads_filters_id' => '159',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '149',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        160 => 
+        array (
+          'ads_filters_id' => '160',
+          'ads_filters_name' => 'Совместимость с Android',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '150',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'sovmestimost-s-android',
+          'ads_filters_required' => '0',
+        ),
+        161 => 
+        array (
+          'ads_filters_id' => '161',
+          'ads_filters_name' => 'Совместимость с iOS',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '151',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'sovmestimost-s-ios',
+          'ads_filters_required' => '0',
+        ),
+        162 => 
+        array (
+          'ads_filters_id' => '162',
+          'ads_filters_name' => 'Влагозащита',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '152',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vlagozashchita',
+          'ads_filters_required' => '0',
+        ),
+        163 => 
+        array (
+          'ads_filters_id' => '163',
+          'ads_filters_name' => 'Шагомер',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '153',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'shagomer',
+          'ads_filters_required' => '0',
+        ),
+        164 => 
+        array (
+          'ads_filters_id' => '164',
+          'ads_filters_name' => 'Пульсометр',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '154',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'pulsometr',
+          'ads_filters_required' => '0',
+        ),
+        165 => 
+        array (
+          'ads_filters_id' => '165',
+          'ads_filters_name' => 'Мониторинг сна',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '155',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'monitoring-sna',
+          'ads_filters_required' => '0',
+        ),
+        166 => 
+        array (
+          'ads_filters_id' => '166',
+          'ads_filters_name' => 'Телефонные звонки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '156',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'telefonnye-zvonki',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      158 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      159 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      160 => 
+      array (
+        'ads_filters_name' => 'Совместимость с Android',
+        'ads_filters_type' => 'select',
+      ),
+      161 => 
+      array (
+        'ads_filters_name' => 'Совместимость с iOS',
+        'ads_filters_type' => 'select',
+      ),
+      162 => 
+      array (
+        'ads_filters_name' => 'Влагозащита',
+        'ads_filters_type' => 'select',
+      ),
+      163 => 
+      array (
+        'ads_filters_name' => 'Шагомер',
+        'ads_filters_type' => 'select',
+      ),
+      164 => 
+      array (
+        'ads_filters_name' => 'Пульсометр',
+        'ads_filters_type' => 'select',
+      ),
+      165 => 
+      array (
+        'ads_filters_name' => 'Мониторинг сна',
+        'ads_filters_type' => 'select',
+      ),
+      166 => 
+      array (
+        'ads_filters_name' => 'Телефонные звонки',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

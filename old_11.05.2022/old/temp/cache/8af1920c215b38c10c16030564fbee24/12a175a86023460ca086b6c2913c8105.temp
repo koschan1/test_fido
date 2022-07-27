@@ -1,0 +1,83 @@
+<?php return array (
+  'time' => 1637445428,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        209 => 
+        array (
+          'ads_filters_id' => '209',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '199',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        210 => 
+        array (
+          'ads_filters_id' => '210',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '200',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        211 => 
+        array (
+          'ads_filters_id' => '211',
+          'ads_filters_name' => 'Автофокус',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '201',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'avtofokus',
+          'ads_filters_required' => '0',
+        ),
+        212 => 
+        array (
+          'ads_filters_id' => '212',
+          'ads_filters_name' => 'Стабилизатор изображения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '202',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'stabilizator-izobrazheniya',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      209 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      210 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      211 => 
+      array (
+        'ads_filters_name' => 'Автофокус',
+        'ads_filters_type' => 'select',
+      ),
+      212 => 
+      array (
+        'ads_filters_name' => 'Стабилизатор изображения',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

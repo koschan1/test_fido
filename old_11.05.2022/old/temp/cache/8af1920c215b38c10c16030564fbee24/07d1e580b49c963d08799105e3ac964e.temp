@@ -1,0 +1,100 @@
+<?php return array (
+  'time' => 1637442316,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        146 => 
+        array (
+          'ads_filters_id' => '146',
+          'ads_filters_name' => 'Срок использования',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '139',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'srok-ispolzovaniya',
+          'ads_filters_required' => '0',
+        ),
+        178 => 
+        array (
+          'ads_filters_id' => '178',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '168',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '0',
+        ),
+        179 => 
+        array (
+          'ads_filters_id' => '179',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '169',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        180 => 
+        array (
+          'ads_filters_id' => '180',
+          'ads_filters_name' => 'Диагональ экрана',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '170',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'diagonal-ekrana',
+          'ads_filters_required' => '0',
+        ),
+        181 => 
+        array (
+          'ads_filters_id' => '181',
+          'ads_filters_name' => 'Разъем HDMI',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '171',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'razem-hdmi',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      146 => 
+      array (
+        'ads_filters_name' => 'Срок использования',
+        'ads_filters_type' => 'select',
+      ),
+      178 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      179 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      180 => 
+      array (
+        'ads_filters_name' => 'Диагональ экрана',
+        'ads_filters_type' => 'select',
+      ),
+      181 => 
+      array (
+        'ads_filters_name' => 'Разъем HDMI',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

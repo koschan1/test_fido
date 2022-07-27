@@ -1,0 +1,83 @@
+<?php return array (
+  'time' => 1652119772,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        296 => 
+        array (
+          'ads_filters_id' => '296',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '286',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        297 => 
+        array (
+          'ads_filters_id' => '297',
+          'ads_filters_name' => 'Размер',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '287',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'razmer',
+          'ads_filters_required' => '1',
+        ),
+        298 => 
+        array (
+          'ads_filters_id' => '298',
+          'ads_filters_name' => 'Состояние товара',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '288',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'sostoyanie-tovara',
+          'ads_filters_required' => '1',
+        ),
+        299 => 
+        array (
+          'ads_filters_id' => '299',
+          'ads_filters_name' => 'Бренд',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '289',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'brend',
+          'ads_filters_required' => '1',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      296 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      297 => 
+      array (
+        'ads_filters_name' => 'Размер',
+        'ads_filters_type' => 'select',
+      ),
+      298 => 
+      array (
+        'ads_filters_name' => 'Состояние товара',
+        'ads_filters_type' => 'select',
+      ),
+      299 => 
+      array (
+        'ads_filters_name' => 'Бренд',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

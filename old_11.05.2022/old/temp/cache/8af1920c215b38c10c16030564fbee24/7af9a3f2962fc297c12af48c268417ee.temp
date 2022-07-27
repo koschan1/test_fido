@@ -1,0 +1,83 @@
+<?php return array (
+  'time' => 1637232876,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        146 => 
+        array (
+          'ads_filters_id' => '146',
+          'ads_filters_name' => 'Срок использования',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '139',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'srok-ispolzovaniya',
+          'ads_filters_required' => '0',
+        ),
+        175 => 
+        array (
+          'ads_filters_id' => '175',
+          'ads_filters_name' => 'Оперативная память',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '165',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'operativnaya-pamyat',
+          'ads_filters_required' => '0',
+        ),
+        176 => 
+        array (
+          'ads_filters_id' => '176',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '166',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '0',
+        ),
+        177 => 
+        array (
+          'ads_filters_id' => '177',
+          'ads_filters_name' => 'Игровой',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '167',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'igrovoy',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      146 => 
+      array (
+        'ads_filters_name' => 'Срок использования',
+        'ads_filters_type' => 'select',
+      ),
+      175 => 
+      array (
+        'ads_filters_name' => 'Оперативная память',
+        'ads_filters_type' => 'select',
+      ),
+      176 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      177 => 
+      array (
+        'ads_filters_name' => 'Игровой',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

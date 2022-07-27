@@ -1,0 +1,83 @@
+<?php return array (
+  'time' => 1637828153,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        194 => 
+        array (
+          'ads_filters_id' => '194',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '184',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        195 => 
+        array (
+          'ads_filters_id' => '195',
+          'ads_filters_name' => 'Категория камеры',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '185',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kategoriya-kamery',
+          'ads_filters_required' => '1',
+        ),
+        196 => 
+        array (
+          'ads_filters_id' => '196',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '186',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        197 => 
+        array (
+          'ads_filters_id' => '197',
+          'ads_filters_name' => 'Видоискатель',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '187',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vidoiskatel',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      194 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      195 => 
+      array (
+        'ads_filters_name' => 'Категория камеры',
+        'ads_filters_type' => 'select',
+      ),
+      196 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      197 => 
+      array (
+        'ads_filters_name' => 'Видоискатель',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

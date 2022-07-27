@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="svBlockMentionRenderingOnNoPermissions" edit_format="onoff" data_type="boolean">
+    <default_value>0</default_value>
+    <relation group_id="sv_usermentionsimprovements" display_order="300"/>
+  </option>
+  <option option_id="svUMIPermDeniedOnViewGroup" edit_format="onoff" data_type="boolean">
+    <default_value>1</default_value>
+    <relation group_id="sv_usermentionsimprovements" display_order="400"/>
+  </option>
+  <option option_id="sv_default_group_avatar_l" edit_format="textbox" data_type="string">
+    <default_value></default_value>
+    <relation group_id="sv_usermentionsimprovements" display_order="220"/>
+  </option>
+  <option option_id="sv_default_group_avatar_s" edit_format="textbox" data_type="string">
+    <default_value>styles/default/sv/mentionimprovements/group_48.png</default_value>
+    <relation group_id="sv_usermentionsimprovements" display_order="210"/>
+  </option>
+  <option option_id="sv_limit_quote_emails" edit_format="onoff" data_type="boolean">
+    <default_value>1</default_value>
+    <relation group_id="sv_usermentionsimprovements" display_order="120"/>
+  </option>
+  <option option_id="sv_mention_snippet_length" edit_format="spinbox" data_type="integer">
+    <default_value>0</default_value>
+    <edit_format_params>min=-1</edit_format_params>
+    <relation group_id="sv_usermentionsimprovements" display_order="130"/>
+  </option>
+  <option option_id="sv_send_email_on_quote" edit_format="onoff" data_type="boolean">
+    <default_value></default_value>
+    <relation group_id="sv_usermentionsimprovements" display_order="110"/>
+  </option>
+  <option option_id="sv_send_email_on_tagging" edit_format="onoff" data_type="boolean">
+    <default_value></default_value>
+    <relation group_id="sv_usermentionsimprovements" display_order="100"/>
+  </option>
+</options>
